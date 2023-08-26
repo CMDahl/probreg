@@ -1,5 +1,12 @@
+
+
+
 import numpy as np
 import transforms3d as t3d
+import os
+import sys
+
+sys.path.append(os.path.abspath('D:\GitHub\probreg'))
 from probreg import filterreg
 from probreg import callbacks
 import utils
